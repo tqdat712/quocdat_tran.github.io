@@ -26,9 +26,39 @@ button:hover {
     background-color: #727274b0;
 }
 
-.personal-information {
+.photo {
     display: flex;
     align-items: center;
-    columns: 1fr 1fr 1fr;
+    columns: 1fr 1fr;
     justify-content: flex-start;
+}
+
+.summary{
+    color: white; 
+    font-size: 200%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    padding-top: 2%;
+}
+
+.education {
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+    color: white;
+}
+
+li {
+
+    margin-left: 5%;
+    
+}
+
+.work-exp {
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+    color: white;
 }
