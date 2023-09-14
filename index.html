@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="navigator">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid" data-toggle="collapse" href="#collapselink" role="button" aria-expanded="true">
+                <a class="navbar-brand" href="#">Quoc-Dat Tran</a>
+                
+            </div>
+
+        </nav>
+
+
+        <div class="collapse" id="collapselink">
+            <div class="d-flex justify-content-around align-items-center" id="nav_collapse">
+                <button type="button" class="btn btn-lg" href='about.html' id="link1" style="color:white">About me</button>
+                <button type="button" class="btn btn-lg" href="code.html" id="link2" style="color:white">Coding projects</button>
+                <button type="button" class="btn btn-lg" href="image.html" id="link3" style="color:white">Photography projects</button>
+                <button type="button" class="btn btn-lg" href='contact.html' id="link4" style="color:white">Contact me</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid" style="width: 60%;align-content: center;">
+        <div >
+            <p style="color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size: 200%; padding-top: 10%;">Hi, You can call me Dat or Dan!<br> I have plenty experience in Machine Learning, Data Science, App and Web Developing! I also have some photography experience!</p>
+        
+        </div>
+
+    </div>
+
+
+    <!-- <div class="personal-information">
+        <img src="IMG_6042.jpg" class="img-thumbnail" width="25%" style="margin-left: 5%; margin-top: 5%;"> 
+        
+        <div class="w-75" id="link" style="padding-top: 3%;">
+            <h1 style="color:white; padding-left: 5%; font-size: 550%;">Quoc-Dat Tran</h1>
+            <div style="justify-content: start;">
+                <h2 style="color:white; padding-left: 6%; font-size: 150%">Email: <a href="mailto:tqdat71201@gmail.com" target="_blank">tqdat71201@gmail.com</a></h2>
+                <h2 style="color:white; padding-left: 6%; font-size: 150%">Phone: <a href="tel:+1-587-882-4709" target="_blank">(+1) 587 882 4709</a></h2>
+                <h2 style="color:white; padding-left: 6%; font-size: 150%">Github: <a href="https://github.com/tqdat712" target="_blank">https://github.com/tqdat712</a></h2>
+                <h2 style="color:white; padding-left: 6%; font-size: 150%">LinkedIn: <a href="https://www.linkedin.com/in/quocdat-tran/" target="_blank">https://www.linkedin.com/in/quocdat-tran/</a></h2>
+                <h2 style="color:white; padding-left: 6%; font-size: 150%">Flickr: <a href="https://www.flickr.com/photos/185343620@N04/" target="_blank">https://www.flickr.com/photos/185343620@N04/</a></h2>
+            </div>
+            
+        </div> -->
+
+        
+        
+        
+    </div>
+
+    <script>
+        $(".container-fluid").parent("nav").mouseenter(
+            function(){
+                $(".navigator").children(".collapse").collapse('show');}   
+            
+        );
+        $(".collapse").children().mouseleave(
+            function(){
+                
+                $(".navigator").children(".collapse").collapse('hide');
+            }
+        )
+    </script>
+</body>
