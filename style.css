@@ -3,9 +3,34 @@ body {
     /* #f6f5fa */
 }
 
-/* nav {
-    background-color: #004681;
-} */
+.navigator {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar-brand {
+    
+    background-image: linear-gradient(
+    -225deg,
+    #acacac 0%,
+    #c6c6c6 29%,
+    #e4e4e4 67%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #232323;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 300%;
+}
 
 .navbar-brand:hover {
     transform: scale(1.1);
@@ -23,7 +48,7 @@ button:hover {
 
 #nav_collapse{
     height: 15vh;
-    background-color: #727274b0;
+    background-color: #727274df;
 }
 
 .photo {
@@ -36,6 +61,7 @@ button:hover {
 .summary{
     color: white; 
     font-size: 200%; 
+    line-height: 200%;
     margin-left: 5%; 
     margin-right: 5%; 
     padding-top: 2%;
@@ -46,7 +72,9 @@ button:hover {
     margin-right: 5%;
     margin-left: 5%;
     font-size: 200%;
+    line-height: 200%;
     color: white;
+    
 }
 
 li {
@@ -60,5 +88,45 @@ li {
     margin-right: 5%;
     margin-left: 5%;
     font-size: 200%;
+    line-height: 200%;
     color: white;
+}
+
+.skill {
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+    line-height: 200%;
+    color: white;
+}
+
+.hobby {
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+    line-height: 200%;
+    color: white;
+}
+
+@keyframes textclip {
+    to{
+        background-position: 200% center;
+    }
+    
+}
+
+.hidden{
+    position: relative;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.5s all ease;
+  }
+  
+.show{
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(0);
 }

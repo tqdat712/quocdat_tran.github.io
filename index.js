@@ -1,9 +1,15 @@
-$(".container-fluid").parent("nav").hover(
-    function(){
-        $(this).children('collapse').collapse('show');   
-    }
-)
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show')
+        }
+    });
+});
 
-, function() {
-    $(this).children('collapse').collapse('hide');
-}
+
+
+const hidden = document.querySelectorAll('.hidden')
+hidden.forEach((el) => observer.observe(el))
