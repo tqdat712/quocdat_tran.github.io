@@ -35,9 +35,9 @@
         </div>
     </div>
 
-    <div id="content">
-        <span id="text1"></span>
-        <span id="text2"></span>
+    <div class="content">
+        <span class="text text1">I'm a </span>
+        <span class="text text2"> Web Developer</span>
     </div>
     
    
@@ -55,6 +55,29 @@
                 
                 $(".navigator").children(".collapse").collapse('hide');
             }
-        )
+        );
+
+        const text = document.querySelector(".text2");
+
+        const textChange = () => {
+            setTimeout(() => {
+                text.textContent = "Web Developer";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Software Developer";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Machine Learning Engineer";
+            }, 8000);
+            setTimeout(() => {
+                text.textContent = "Data Analyst";
+            }, 12000);
+            setTimeout(() => {
+                text.textContent = "Photographer";
+            }, 16000);
+        };
+
+        textChange();
+        setInterval(textChange, 16000);
     </script>
 </body>
