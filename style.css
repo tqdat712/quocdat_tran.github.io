@@ -137,7 +137,9 @@ li {
 }
 
 .content{
-    padding-left: 12%;
+    left:30%;
+    position: fixed;
+    overflow: hidden;
 }
 
 .content .text{
@@ -170,7 +172,7 @@ li {
 
 @keyframes typing{
     40%, 60%{
-        left: calc(100% + 1%);
+        left: calc(100% + 2%);
     }
     100%{
         left:0%
