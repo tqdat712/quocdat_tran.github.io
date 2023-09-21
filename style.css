@@ -42,7 +42,7 @@ body {
 }
 
 button {
-    width:18%;
+    width:20%;
     color: white;
 }
 
@@ -178,3 +178,71 @@ li {
         left:0%
     }
 }
+
+.code-container {
+    color:white;
+    display:grid;
+    grid-gap: 2%;
+    max-width: 85%;
+    height: fit-content;
+    margin: auto;
+    
+}
+
+.code-container .project{
+    margin: auto;
+    display: grid;
+    font-size: 200%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #484849;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.text {
+    max-width: 90%;
+    line-break: 110%;
+    padding-top: 2%;
+    padding-left: 2%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 150%;
+}
+
+.image {
+    padding-top: 2%;
+    padding-right: 22%;
+    padding-bottom: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+
+img {
+    margin: auto;
+}
+
+/* .image > .hidden {
+    margin: auto;
+    display:grid;
+    
+    align-items: center;
+    justify-content: center;
+    float: right;
+    height: 100%;
+    grid-gap: 2%;
+    
+    
+} */
+
+
