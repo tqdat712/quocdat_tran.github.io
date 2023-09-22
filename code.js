@@ -70,7 +70,7 @@ const projects = [{
 },{
     name: 'Ongoing and future projects',
     id:7,
-    images:['https://png.pngtree.com/png-clipart/20220704/original/pngtree-coming-soon-banner-style-png-image_8316626.png'],
+    images:['comingsoon.png'],
     details:['Personal schedule and notes web app using Django and React.',
     'Stock price monitor app with analysis and prediction using Django, Flask and Machine Learning.']
 }];
