@@ -71,7 +71,8 @@ const projects = [{
     name: 'Ongoing and future projects',
     id:7,
     images:['comingsoon.png'],
-    details:['Personal schedule and notes web app using Django and React.',
+    details:['Participating in Global Power Rankings Hackathon',
+    'Personal schedule and notes web app using Django and React.',
     'Stock price monitor app with analysis and prediction using Django, Flask and Machine Learning.']
 }];
 
