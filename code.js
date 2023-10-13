@@ -83,9 +83,10 @@ projects.forEach((project) => {
     
     codeHTML+= `
     <div class="project project-${project.id}">
+    <h1 style="padding-left: 20px; padding-top: 20px"> ${project.name} </h1><br>
         <div class="text">
             <div class="hidden">
-                <h1> ${project.name} </h1>
+                
                 <ul>`;
     project.details.forEach((detail) =>{
         codeHTML+=  `<li>${detail}</li>`
