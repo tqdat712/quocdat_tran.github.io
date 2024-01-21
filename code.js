@@ -109,7 +109,7 @@ projects.forEach((project) => {
     });
     
     if (project.hasOwnProperty('github')) {
-        codeHTML += `<li><a href=${project.github}>Github link</a></li>`;
+        codeHTML += `<li><a href=${project.github} target="_blank" rel="noopener noreferrer">Github link</a></li>`;
     }
     codeHTML+= `
                 </ul>
