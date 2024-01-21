@@ -58,7 +58,7 @@ const projects = [{
     'The Masked language model achieved the ability to effectively complete missing portions within a sentence.',
     'The Sequence-to-Sequence model exhibited a noteworthy capability to proficiently summarize concise textual content (such as articles or poems).',
     ],
-    guthub: 'https://github.com/tqdat712/Natural-Language-Processing',
+    github: 'https://github.com/tqdat712/Natural-Language-Processing',
 },{
     name: 'POS tagging with Hidden Markov Model',
     id:5,
